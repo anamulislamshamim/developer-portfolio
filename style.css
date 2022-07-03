@@ -16,7 +16,7 @@ body{
     cursor: pointer;
     text-decoration: none;
 }
-section{
+.flexible_section{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: center right;
+}
+.middle_heading{
+    color:red;
+    text-align: center;
+}
+.boxShadow{
+    box-shadow: 10px 10px 40px black;
+    margin:0% 5%;
+    border-radius: 10px;
+}
+#exp_left{
+    border-left: 5px solid orange;
+}
+#exp_right{
+    border-left: 5px solid blue;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+footer p{
+    text-align:center;
+}
+footer p span{
+    color:red;
+    font-weight: 600;
 }
